@@ -24,7 +24,6 @@ app.use(jumanji);
 
 ### Further Reading
 
-http://tech.vg.no/2013/10/02/ios7-bug-shows-white-page-when-getting-304-not-modified-from-server/
-https://github.com/visionmedia/node-fresh/commit/f2c79c24b411ce56e051d1c8bf91b9d6a33e4e49
-09:25
-https://github.com/visionmedia/node-fresh/issues/8
+* [Blog](http://tech.vg.no/2013/10/02/ios7-bug-shows-white-page-when-getting-304-not-modified-from-server/)
+* [Commit to Expressjs dependency](https://github.com/visionmedia/node-fresh/commit/f2c79c24b411ce56e051d1c8bf91b9d6a33e4e49)
+* [Expressjs dependency github issue](https://github.com/visionmedia/node-fresh/issues/8)
