@@ -1,26 +1,27 @@
 {
-  "name": "jumanji",
-  "version": "0.1.0",
-  "description": "When Safari goes wrong.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Dakuan/jumanji"
-  },
-  "author": {
-    "name": "Dominic Barker",
-    "email": "dom.barker808@gmail.com",
-    "url": "http://www.dombarker.co.uk"
-  },
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Dakuan/jumanji/issues"
-  },
-  "homepage": "https://github.com/Dakuan/jumanji",
-  "dependencies": {
-    "useragent": "^2.0.9"
-  }
+    "name": "jumanji",
+    "version": "0.1.1",
+    "description": "When Safari goes wrong.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Dakuan/jumanji"
+    },
+    "keywords": ["express", "middleware", "safari", "the-thing-that-should-not-be", "connect", "cache-control"],
+    "author": {
+        "name": "Dominic Barker",
+        "email": "dom.barker808@gmail.com",
+        "url": "http://www.dombarker.co.uk"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Dakuan/jumanji/issues"
+    },
+    "homepage": "https://github.com/Dakuan/jumanji",
+    "dependencies": {
+        "useragent": "^2.0.9"
+    }
 }
