@@ -1,6 +1,6 @@
 {
   "name": "jumanji",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "hack round safari bug",
   "main": "index.js",
   "scripts": {
