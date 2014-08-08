@@ -5,7 +5,7 @@ Jumanji
 
 ## For when Safari goes wrong
 
-There appears to be a bug in Safari and Mobile Safari where in private browsing mode it will add a `'Cache-Control': 'maxage=0'` header to a request while clearing the browser cache at the same time. Express will resonably respond with a `304` status code. This causes Safari to attempt to load the page from it's empty cache, leaving the user seeing...nothing.
+There appears to be a bug in Safari and Mobile Safari where in private browsing mode it will add a `'Cache-Control': 'maxage=0'` header to a request while clearing the browser cache at the same time. Express will resonably respond with a `304` status code. This causes Safari to attempt to load the page from its empty cache, leaving the user seeing...nothing.
 
 Bad Safari.
 
