@@ -19,7 +19,6 @@ var express = require('express'),
     jumanji = require('jumanji');
 
 app.use(jumanji);
-
 ```
 
 ### Further Reading
