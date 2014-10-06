@@ -1,21 +1,21 @@
 var useragent = require('useragent');
 
-function _isAnySafari(ua) {
+function isAnySafari(ua) {
     return useragent.is(ua).safari || useragent.is(ua).mobile_safari;
 }
 
-function _isMaxAgeZero(cc) {
+function isMaxAgeZero(cc) {
     return cc === 'max-age=0';
 }
 
-function _isBadSafari(req) {
+function isBadSafari(req) {
     var ua = req.get('user-agent'),
         cc = req.get('cache-control');
-    return _isAnySafari(ua) && _isMaxAgeZero(cc);
+    return isAnySafari(ua) && isMaxAgeZero(cc);
 }
 
 module.exports = function (req, res, next) {
-    if (_isBadSafari(req)) {
+    if (isBadSafari(req)) {
         req.headers['cache-control'] = 'no-cache';
     }
     next();
